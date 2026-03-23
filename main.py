@@ -11,9 +11,9 @@ def main():
             from tictactoe.game import play_game
             play_game()
 
-        #elif choice == '2':
-           # from sudoku.board import run_sudoku
-           # run_sudoku()
+        elif choice == '2':
+            from sudoku.board import play_sudoku
+            play_sudoku()
 
         elif choice == '3':
             print("Exiting..")
